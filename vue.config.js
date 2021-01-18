@@ -22,7 +22,7 @@ module.exports = {
     config.plugins = [...config.plugins, ...plugins];
   },
   publicPath: isProd
-  ? '/nadaa_web/'
+  ? '/'
   : '/',
   devServer: {
     port: 8000,

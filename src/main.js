@@ -16,9 +16,9 @@ import "./server";
 Vue.config.productionTip = true;
 
 import mockStart from './mock';
-if(process.env.NODE_ENV === 'development'){
+// if(process.env.NODE_ENV === 'development'){
  mockStart();
-}
+// }
 
 const Bus = new Vue();
 

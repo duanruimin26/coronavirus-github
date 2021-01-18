@@ -1,0 +1,31 @@
+{
+  "systemSettings": {
+    "systemSettings": "系统",
+    "systemParam":"系统参数",
+    "userManage":"用户管理",
+    "roleManage":"角色管理",
+    "authorityManage":"权限管理",
+    "operationLogs":"系统日志"
+  },
+  "sample": {
+    "sample": "样本",
+    "subjectInfo": "受检者信息",
+    "sampleInfo": "样本信息"
+  },
+  "analysis": {
+    "analysis": "分析",
+    "dataAnalysis": "数据解析",
+    "dataAnalysisDetail": "测序目录详情",
+    "resultsReview": "结果审核",
+    "resultsReviewDetail": "审核"
+  },
+  "report": {
+    "report": "报告",
+    "searchDownload": "检索下载",
+    "searchDownloadDetail": "下载"
+  },
+  "systemLog": {
+    "systemLog": "系统日志",
+    "list": "系统日志"
+  }
+}

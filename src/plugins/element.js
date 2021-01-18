@@ -1,0 +1,82 @@
+import Vue from "vue";
+import {
+  Progress,
+  Select,
+  Option,
+  Tooltip,
+  Dropdown,
+  DropdownMenu,
+  DropdownItem,
+  Input,
+  Button,
+  Upload,
+  Row,
+  Col,
+  Form,
+  FormItem,
+  DatePicker,
+  Menu,
+  Submenu,
+  MenuItem,
+  MenuItemGroup,
+  Dialog,
+  Pagination,
+  Steps,
+  Step,
+  Tabs,
+  TabPane,
+  Checkbox,
+  CheckboxGroup,
+  Breadcrumb,
+  BreadcrumbItem,
+  Tree,
+  Loading,
+  MessageBox,
+  Radio,
+  Cascader,
+  RadioGroup,
+  RadioButton,
+  Table,
+  TableColumn
+} from "element-ui";
+
+Vue.use(Progress);
+Vue.use(Select);
+Vue.use(Option);
+Vue.use(Tooltip);
+Vue.use(Dropdown);
+Vue.use(DropdownMenu);
+Vue.use(DropdownItem);
+Vue.use(Input);
+Vue.use(Button);
+Vue.use(Upload);
+Vue.use(Row);
+Vue.use(Col);
+Vue.use(Form);
+Vue.use(FormItem);
+Vue.use(DatePicker);
+Vue.use(Menu);
+Vue.use(Submenu);
+Vue.use(MenuItem);
+Vue.use(MenuItemGroup);
+Vue.use(Dialog);
+Vue.use(Pagination);
+Vue.use(Steps);
+Vue.use(Step);
+Vue.use(Tabs);
+Vue.use(TabPane);
+Vue.use(Checkbox);
+Vue.use(CheckboxGroup);
+Vue.use(Breadcrumb);
+Vue.use(BreadcrumbItem);
+Vue.use(Tree);
+Vue.use(Radio);
+Vue.use(Cascader);
+Vue.use(RadioGroup);
+Vue.use(RadioButton);
+Vue.use(Loading.directive);
+Vue.use(Table);
+Vue.use(TableColumn);
+
+Vue.prototype.$alert = MessageBox.alert;
+Vue.prototype.$confirm = MessageBox.confirm;

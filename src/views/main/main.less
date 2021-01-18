@@ -1,0 +1,288 @@
+.main {
+  position: relative;
+  padding-left: 256px;
+  background: #f0f0f0;
+  min-height: 100%;
+
+  &-collapse {
+    padding-left: 64px;
+
+    .content-footer{
+      width: calc(100% - 64px) !important;
+    }
+  }
+
+  .menu {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    z-index: 1;
+  }
+
+  .content {
+    position: relative;
+
+    .content-bg {
+      width: calc(100% - 40px);
+      height: 32px;
+      background: #fff;
+      padding: 16px;
+
+      .collapse-btn {
+        float: left;
+        font-size: 32px;
+        cursor: pointer;
+      }
+
+      .system-title {
+        float: left;
+        line-height: 32px;
+        font-size: 20px;
+      }
+
+      .header-breadcrumb {
+        float: left;
+        margin-left: 12px;
+        line-height: 32px;
+      }
+
+      .operate-btns {
+        margin-right: 20px;
+
+        .el-button--default {
+          color: #666;
+        }
+
+        .el-button:focus,
+        .el-button:hover {
+          color: #409EFF;
+          border-color: #409EFF;
+          background-color: #fff;
+        }
+      }
+
+      .avatar {
+        float: left;
+        margin-right: 10px;
+        height: 32px;
+        width: 32px;
+        border-radius: 32px;
+      }
+
+      .logout {
+        cursor: pointer;
+
+        span {
+          display: inline-block;
+          line-height: 32px;
+          font-size: 12px;
+          color: #000;
+        }
+      }
+
+      .crumb-item {
+        .crumb-label {
+          cursor: pointer;
+        }
+      }
+
+      .crumb-item:first-of-type .crumb-label {
+        cursor: auto;
+      }
+
+      .crumb-item:last-of-type .crumb-label {
+        cursor: auto;
+      }
+    }
+
+    .content-body {
+      padding: 20px;
+      width: calc(100% - 40px);
+
+      .main-content {
+        padding: 10px 0;
+        background: #FFFFFF;
+        margin-bottom: 30px;
+        border-radius: 0px 8px 8px 8px;
+
+        .ruleForm {
+          padding: 20px;
+
+          .el-input__prefix,
+          .el-input__suffix {
+            top: 2px !important;
+          }
+        }
+
+        .search-params {
+          padding: 0 20px;
+          margin: 10px 0;
+          border-bottom: 1px solid #e7e7e7;
+
+          .params-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+
+            .label {
+              margin-right: 10px;
+              flex-shrink: 0;
+            }
+
+            .sub-title {
+              margin-bottom: 10px;
+              flex-shrink: 0;
+              font-size: 16px;
+              font-weight: 600;
+            }
+          }
+
+          .width0 {
+            width: 100px !important;
+            margin-right: 20px;
+          }
+
+          .width1 {
+            width: 180px !important;
+            margin-right: 20px;
+          }
+
+          .width2 {
+            width: 250px !important;
+            margin-right: 20px;
+          }
+        }
+
+        .operate-btns {
+          padding: 0 10px;
+          margin-bottom: 10px;
+        }
+
+        .export-btn {
+          background-color: rgba(5, 133, 124, 1);
+          border: 1px solid rgba(5, 133, 124, 1);
+          color: #fff;
+        }
+
+        .export-btn:hover {
+          background-color: rgba(5, 133, 124, 0.9);
+          border: 1px solid rgba(5, 133, 124, 0.9);
+        }
+
+        .export-btn.is-disabled {
+          background: #eaeaf9;
+          border-color: #eaeaf9;
+        }
+
+        .table-data {
+          padding: 0 10px;
+
+          .el-table {
+
+            td,
+            th {
+              padding: 8px 0;
+            }
+
+            .el-table__expanded-cell {
+              padding: 0;
+            }
+          }
+
+          .el-table--border {
+            border-radius: 4px;
+          }
+
+          th.is-leaf {
+            background: rgb(245, 245, 245);
+          }
+
+          .el-button {
+            height: 24px;
+          }
+
+          .table-operate-btns {
+            padding: 0 12px;
+          }
+
+          .all-info-btn {
+            color: #04B9B4;
+            text-decoration: underline;
+          }
+
+          .all-info-btn.is-disabled {
+            color: #C0C4CC;
+          }
+
+          .all-info-btn.expand-info {
+            color: #fff;
+            background-color: #04B9B4;
+          }
+
+          .orange-btn {
+            background-color: rgba(251, 83, 3, 1);
+            border: 1px solid  rgba(251, 83, 3, 1);
+          }
+
+          .orange-btn:hover {
+            background-color: rgba(251, 83, 3, 0.9);
+            border: 1px solid  rgba(251, 83, 3, 0.9);
+          }
+
+          .green-btn {
+            background-color: rgba(83, 184, 7, 1);
+            border: 1px solid rgba(83, 184, 7, 1);
+          }
+
+          .green-btn:hover {
+            background-color: rgba(83, 184, 7, 0.9);
+            border: 1px solid rgba(83, 184, 7, 0.9);
+          }
+
+          .green-blue-btn {
+            background-color: rgba(27, 202, 144, 1);
+            border: 1px solid rgba(27, 202, 144, 1);
+          }
+
+          .green-blue-btn:hover {
+            background-color: rgba(27, 202, 144, 0.9);
+            border: 1px solid rgba(27, 202, 144, 0.9);
+          }
+
+          .green-blue-btn.is-disabled {
+            background: #eaeaf9;
+            border-color: #eaeaf9;
+          }
+        }
+
+        .table-pagination {
+          margin-top: 20px;
+          padding: 2px 10px;
+        }
+
+        .el-pagination.is-background .btn-next,
+        .el-pagination.is-background .btn-prev,
+        .el-pagination.is-background .el-pager li {
+          background-color: #fff;
+          border: 1px solid #f4f4f5;
+        }
+      }
+    }
+  }
+
+  .content-footer{
+    position: absolute;
+    bottom: 0;
+    width: calc(100% - 256px);
+    height: 34px;
+    line-height: 34px;
+    margin-top: 10px;
+    background: #FFFFFF;
+    color: #878787;
+    border-radius: 6px;
+    text-align: center;
+  }
+
+
+}

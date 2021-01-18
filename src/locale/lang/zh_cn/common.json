@@ -1,0 +1,102 @@
+{
+  "common": {
+    "fuzzyQuery": "模糊查询",
+    "action": "操作",
+    "loading": "加载中...",
+    "tip": "提示",
+    "all": "全部"
+  },
+  "tips": {
+    "inputDate": "输入日期格式：yyyy/MM/dd"
+  },
+  "fileTypeTips": {
+    "pdf": "上传文件仅支持pdf格式！",
+    "doc": "上传文件仅支持doc格式！",
+    "xls": "上传文件仅支持excel格式！",
+    "jpeg": "上传文件仅支持jpeg，jpg，png格式！",
+    "mht": "上传文件仅支持mht，htm格式！"
+  },
+  "fileSelectTips": {
+    "file": "请选择文件！",
+    "pdf": "请选择pdf格式的文件",
+    "doc": "请选择doc格式的文件",
+    "xls": "请选择excel格式的文件",
+    "jpeg": "请选择jpeg，jpg，png格式的文件！",
+    "mht": "请选择mht，htm格式的文件！"
+  },
+  "upload": {
+    "success": "上传文件{name}成功！"
+  },
+  "mark": {
+    "bL": "（",
+    "bR": "）"
+  },
+  "placeholder": {
+    "select": "请选择",
+    "input": "请输入",
+    "date": "请选择日期",
+    "year": "请选择年份",
+    "month": "选择月份",
+    "startDate": "开始日期",
+    "endDate": "结束日期",
+    "name": "姓名",
+    "UMaccount": "账号",
+    "noDataInput": "未提取到数据，请手动输入"
+  },
+  "button": {
+    "reset": "重置",
+    "search": "查询",
+    "uploadByJinfu": "签署部门导入",
+    "upload": "批量导入",
+    "download": "批量导出",
+    "downloadAll": "全部导出",
+    "prevPage": "返回上一页",
+    "prev": "上一页",
+    "back": "返回",
+    "submit": "提交",
+    "confirm": "确认",
+    "cancel": "取消",
+    "concat": "合并",
+    "gotIt": "知道了",
+    "ts": "暂存",
+    "submitForApproval": "提交审批",
+    "next": "下一步",
+    "close": "关闭",
+    "copy": "复制",
+    "delete": "删除",
+    "login": "登录",
+    "add": "添加",
+    "approval": "审批",
+    "edit": "编辑",
+    "header": "更换抬头",
+    "batchCancel": "批量取消",
+    "batchDownload": "批量下载",
+    "batchPrefetch": "批量预提",
+    "detail": "详情"
+  },
+  "uploadModel": {
+    "modelContent": {
+      "title": "批量导入-文件上传",
+      "label": "上传文件",
+      "tips": "上传文件仅支持Excel文件！",
+      "progressTip": "批量导入文件上传中，请稍等！"
+    },
+    "messageBox": {
+      "title": "批量导入文件，导入失败！",
+      "text1": "请检查导入文件，不要出现以下问题，若有问题，请修改后重新导入：",
+      "text2": "1、请不要改动导出模板的所有表头；",
+      "text3": "2、请不要修改导出模板中的所有格式。"
+    }
+  },
+  "main": {
+    "menuOpen": "菜单展开",
+    "menuClose": "菜单收起",
+    "logout": "退出登录"
+  },
+  "errorCode": {
+    "500": "系统繁忙，请稍后再试！",
+    "401": "请先登录账户！",
+    "timeout": "请求超时，请检查网络是否连接正常！",
+    "network": "请求失败，请检查网络是否已连接！"
+  }
+}

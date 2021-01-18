@@ -1,0 +1,124 @@
+.left-menu {
+  width: 256px;
+  height: calc(100% - 20px);
+  background: #004947;
+  box-shadow: 2px 0px 6px 0px rgba(0, 21, 41, 0.35);
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-bottom: 20px;
+  /*ie下隐藏滚动条*/
+  -ms-overflow-style: none;
+  /*火狐下隐藏滚动条*/
+  overflow: -moz-scrollbars-none;
+
+  .system-item {
+    padding: 17px 58px;
+
+    .system-icon {
+      width: 140px;
+      height: 30px;
+      // background: no-repeat center/100% url("../../assets/images/components/left_menu/system_logo_icon.png");
+      color: white;
+    }
+  }
+
+  .menu-item {
+    
+    background: #002322;
+    border: none;
+
+    // 系统设置
+    .icon-bsp {
+      background: no-repeat center/100% url("../../assets/images/components/left_menu/system_settings_icon.png");
+    }
+
+    // 样本
+    .icon-ct {
+      background: no-repeat center/100% url("../../assets/images/components/left_menu/sample_icon.png");
+    }
+
+    // 分析
+    .icon-al {
+      background: no-repeat center/100% url("../../assets/images/components/left_menu/analysis_icon.png");
+    }
+
+    // 报告
+    .icon-rm {
+      background: no-repeat center/100% url("../../assets/images/components/left_menu/report_icon.png");
+    }
+
+    // 系统日志
+    .icon-fm {
+      background: no-repeat center/100% url("../../assets/images/components/left_menu/system_log_icon.png");
+    }
+
+    .menu-children {
+      position: relative;
+
+      .total-tip {
+        position: absolute;
+        display: inline-block;
+        background: #E44248;
+        right: 20px;
+        padding: 0 5px;
+        height: 16px;
+        line-height: 16px;
+        border-radius: 8px;
+        font-size: 12px;
+        margin-top: 18px;
+        margin-right: -10px;
+      }
+    }
+  }
+
+  .el-menu--collapse .el-menu-item span, .el-menu--collapse .el-submenu>.el-submenu__title span {
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    visibility: hidden;
+    display: inline-block;
+  }
+
+  .el-menu--collapse .el-menu-item .el-submenu__icon-arrow, .el-menu--collapse .el-submenu>.el-submenu__title .el-submenu__icon-arrow {
+    display: none;
+  }
+}
+
+.left-menu-collapse {
+  width: 64px;
+
+  .system-item {
+    padding: 17px 5px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+  }
+}
+
+.left-menu::-webkit-scrollbar {
+  width: 1px;
+}
+
+.el-menu--popup {
+  min-width: 180px;
+  padding: 0;
+  background: #000000;
+
+  .el-menu-item-group__title{
+    padding: 0;
+  }
+
+  .el-menu-item, .el-submenu__title {
+    height: 50px;
+    line-height: 50px;
+  }
+
+  .el-menu-item.is-active {
+    background: #04B9B4;
+  }
+
+  .el-menu-item:focus,
+  .el-menu-item:hover {
+    background:rgba(4, 185, 180, 0.66);
+  }
+}

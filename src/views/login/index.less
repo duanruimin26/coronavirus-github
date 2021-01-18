@@ -1,0 +1,153 @@
+#login {
+  position: relative;
+  background: center center no-repeat url("../../assets/images/login/login-bg.png");
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-height: 600px;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+
+  .system-logo {
+    position: absolute;
+    left: 90px;
+    top: 30px;
+    height: 60px;
+    width: 207px;
+
+    background: center/100% url("../../assets/images/login/logo.png");
+
+    img {
+      height: 40px;
+    }
+  }
+
+  .login-body-form {
+    width: 550px;
+    height: 480px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 30px 0px rgba(43, 46, 46, 0.07);
+    border-radius: 4px;
+    padding: 56px 20px 0;
+    box-sizing: border-box;
+
+    .login-logo {
+      width: 240px;
+      height: 70px;
+      margin: 0 auto 20px;
+    }
+
+    .login-body-form-title {
+      margin: 0 auto 100px;
+      line-height: 30px;
+      height: 30px;
+      font-size: 24px;
+      font-weight: bold;
+      color: #04B9B4;
+      text-align: center;
+    }
+
+    .login-form-items {
+      width: 368px;
+      margin: 0 auto;
+    }
+
+    .el-input {
+      width: 368px;
+      height: 40px;
+
+      .el-input__inner {
+        width: 100%;
+        height: 100%;
+        padding-left: 50px;
+        background-color: #E5F8F7 !important;
+        border: 1px solid #E5F8F7;
+        box-shadow: inset 0 0 0 1000px #E5F8F7 !important;
+      }
+
+      .el-input__prefix,
+      .el-input__suffix {
+        top: 1px;
+        width: 38px;
+        height: 38px;
+        background: #E5F8F7;
+      }
+    }
+
+    .login-body-form-button {
+      width: 368px;
+      margin: 0 auto;
+
+      a {
+        font-size: 12px;
+        color: #425FBC;
+      }
+
+      .split-line {
+        display: inline-block;
+        padding: 0 5px;
+      }
+
+      .el-checkbox__label {
+        font-size: 12px;
+        line-height: 16px;
+      }
+
+      .el-button {
+        width: 100%;
+        height: 40px;
+        margin-top: 10px;
+        color: #FFFFFF;
+        background-image: #02DCDB;
+      }
+
+      .el-button.is-disabled {
+        background-image: none
+      }
+
+      .ie-tips {
+        margin-top: 20px;
+        color: red;
+      }
+    }
+  }
+
+
+  .login-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    padding: 8px 0;
+    box-sizing: border-box;
+    background: #04B9B4;
+    text-align: center;
+
+    .footer-line {
+      margin-bottom: 6px;
+      line-height: 14px;
+      color: #FFFFFF;
+
+      span {
+        display: inline-block;
+        margin: 0 15px;
+      }
+
+    }
+  }
+}
+
+body .common-model.forget-password {
+  height: 200px;
+
+  .content {
+    margin-top: 8px;
+  }
+
+  .el-message-box__btns {
+    margin-top: 30px;
+  }
+}

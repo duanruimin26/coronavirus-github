@@ -1,0 +1,16 @@
+{
+  "title": "账号登录",
+  "placeholder": {
+    "company": "请选择您的公司",
+    "UM": "请输入账号",
+    "password": "请输入密码"
+  },
+  "tip": "忘记密码",
+  "tipDetail":"请联系超级管理员进行密码重置。",
+  "changePassword": "修改密码",
+  "checked": "记住账户",
+  "tips": {
+    "UM": "请输入账号！",
+    "password": "请输入密码！"
+  }
+}
